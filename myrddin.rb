@@ -1,8 +1,8 @@
 class Myrddin < Formula
   desc "Myrddin Programming Language"
   homepage "https://myrlang.org"
-  url "https://myrlang.org/releases/myrddin-0.2.0.tar.gz"
-  sha256 "8bc27e683fdac14d43b4842b50c8d15f29211d8a50c9e691fe637a2878872486"
+  url "https://myrlang.org/releases/myrddin-0.3.1.tar.gz"
+  sha256 "f3ca5e144894a537eb2c5ffc062b96f8988c78354431dbdefafc6c37977f36f5"
 
   def install
     system "./configure", "--prefix=#{prefix}"
